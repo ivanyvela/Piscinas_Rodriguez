@@ -1,0 +1,151 @@
+/* src/css/animations.css */
+
+/* 1. Scroll Reveal */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.reveal.revealed {
+  animation: reveal-up 0.8s ease forwards;
+}
+
+.reveal-delay-1 { animation-delay: 0.1s; }
+.reveal-delay-2 { animation-delay: 0.2s; }
+.reveal-delay-3 { animation-delay: 0.3s; }
+.reveal-delay-4 { animation-delay: 0.4s; }
+
+/* 2. Fade In */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fade-in 1s ease forwards;
+}
+
+/* 3. Scroll Indicator Bounce */
+@keyframes bounce-scroll {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+}
+
+.hero__scroll-indicator {
+  animation: bounce-scroll 2s infinite;
+}
+
+/* 4. WhatsApp Pulse */
+@keyframes whatsapp-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.whatsapp-float::before,
+.whatsapp-float::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-color: var(--color-whatsapp, #25D366);
+  animation: whatsapp-pulse 2.5s ease-out infinite;
+  z-index: -1;
+}
+
+/* 5. Water Shimmer */
+@keyframes water-shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, var(--color-azure, #0077b6) 0%, var(--color-sky, #90e0ef) 50%, var(--color-azure, #0077b6) 100%);
+  background-size: 200% 200%;
+  animation: water-shimmer 3s ease infinite;
+}
+
+/* 6. Navbar transition */
+.navbar {
+  transition: background-color var(--transition-base, 0.3s ease), box-shadow var(--transition-base, 0.3s ease);
+}
+
+.navbar--scrolled {
+  background-color: var(--color-white, #ffffff);
+  box-shadow: var(--shadow-sm, 0 2px 4px rgba(0,0,0,0.1));
+}
+
+/* 7. Hover lift */
+.hover-lift {
+  transition: transform var(--transition-base, 0.3s ease), box-shadow var(--transition-base, 0.3s ease);
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md, 0 4px 6px rgba(0,0,0,0.1));
+}
+
+/* 9. Link underline animation */
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-azure, #0077b6);
+  transition: width var(--transition-base, 0.3s ease), left var(--transition-base, 0.3s ease);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* 8. Prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+  
+  .whatsapp-float::before,
+  .whatsapp-float::after {
+    display: none;
+  }
+}

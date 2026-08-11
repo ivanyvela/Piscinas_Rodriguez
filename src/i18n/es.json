@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "quienes": "Quiénes Somos",
+    "proyectos": "Proyectos",
+    "sobre": "Sobre Nosotros",
+    "contacto": "Contacto"
+  },
+  "hero": {
+    "title": "Piscinas Rodríguez",
+    "subtitle": "La piscina de tus sueños",
+    "tagline": "Especialistas en piscinas proyectadas con gunitado en Almería",
+    "cta": "Solicita tu presupuesto"
+  },
+  "quienes": {
+    "title": "Quiénes Somos",
+    "intro": "Somos una empresa familiar con amplia experiencia en la construcción de piscinas en Almería. Nos especializamos en la técnica del gunitado, garantizando piscinas duraderas y de la más alta calidad.",
+    "exp_title": "Experiencia",
+    "exp_text": "Años de experiencia construyendo piscinas de ensueño en toda la provincia de Almería.",
+    "cal_title": "Calidad",
+    "cal_text": "Gunitado profesional con los mejores materiales del mercado, asegurando durabilidad y acabados perfectos.",
+    "com_title": "Compromiso",
+    "com_text": "Atención personalizada de principio a fin. Tu satisfacción es nuestra prioridad."
+  },
+  "proyectos": {
+    "title": "Nuestros Proyectos",
+    "subtitle": "Cada piscina es una obra única",
+    "p1": "Proyecto Residencial",
+    "p2": "Piscina Infinity",
+    "p3": "Piscina Desbordante",
+    "p4": "Proyecto Comunitario",
+    "p5": "Piscina Natural",
+    "p6": "Diseño Personalizado"
+  },
+  "sobre": {
+    "title": "Sobre Nosotros",
+    "text1": "Piscinas Rodríguez nació de la pasión por crear espacios acuáticos excepcionales en el corazón de Almería. Con el sol y el clima mediterráneo como nuestros aliados, hemos perfeccionado el arte del gunitado para ofrecer piscinas que no solo embellecen su hogar, sino que se integran perfectamente con el paisaje almeriense.",
+    "text2": "Nuestro equipo combina técnicas tradicionales de construcción con las últimas innovaciones en diseño y materiales. Cada proyecto es tratado con la dedicación y el cuidado que merece, porque entendemos que una piscina es mucho más que una estructura — es un lugar donde se crean recuerdos.",
+    "quote": "Cada piscina que construimos es un reflejo de los sueños de nuestros clientes."
+  },
+  "contacto": {
+    "title": "Contacto",
+    "phone_label": "Teléfono",
+    "location_label": "Ubicación",
+    "location": "Almería, España",
+    "email_label": "Email",
+    "form_name": "Nombre",
+    "form_email": "Email",
+    "form_phone": "Teléfono (opcional)",
+    "form_message": "Mensaje",
+    "form_submit": "Enviar mensaje",
+    "form_name_placeholder": "Tu nombre",
+    "form_email_placeholder": "tu@email.com",
+    "form_phone_placeholder": "+34 600 000 000",
+    "form_message_placeholder": "Cuéntanos sobre tu proyecto..."
+  },
+  "footer": {
+    "tagline": "La piscina de tus sueños",
+    "copy": "© 2024 Piscinas Rodríguez. Todos los derechos reservados."
+  },
+  "whatsapp": {
+    "tooltip": "Escríbenos por WhatsApp",
+    "aria": "Contactar por WhatsApp"
+  }
+}

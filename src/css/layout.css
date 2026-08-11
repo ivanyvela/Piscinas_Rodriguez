@@ -1,0 +1,114 @@
+/* Layout & Grid System */
+/* Uses CSS custom properties defined in tokens.css */
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding-inline: var(--container-padding);
+}
+
+/* Sections */
+.section {
+  padding-block: var(--space-3xl);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Alternating Backgrounds */
+.section:nth-of-type(odd) {
+  background-color: var(--color-cream);
+}
+
+.section:nth-of-type(even) {
+  /* Subtle sand tint */
+  background-color: color-mix(in srgb, var(--color-sand) 20%, transparent); 
+}
+
+/* Section Headers */
+.section-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.section-title {
+  font-size: clamp(var(--fs-2xl), 5vw, var(--fs-3xl));
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-text);
+  position: relative;
+  display: inline-block;
+}
+
+/* Decorative underline for section titles */
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background-color: var(--color-azure);
+}
+
+.section-subtitle {
+  font-size: var(--fs-md);
+  color: var(--color-text-light);
+  margin-top: var(--space-sm);
+}
+
+/* Grid Systems */
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Two-Column Layout (Text + Image) */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.two-col:nth-child(even) {
+  /* Class to specifically target alternating rows if needed, otherwise handled by wrapper logic */
+}
+
+@media (min-width: 768px) {
+  .two-col {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  /* Alternating order for even items */
+  .two-col:nth-child(even) > :first-child {
+    order: 2;
+  }
+}

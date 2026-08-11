@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "quienes": "Who We Are",
+    "proyectos": "Projects",
+    "sobre": "About Us",
+    "contacto": "Contact"
+  },
+  "hero": {
+    "title": "Piscinas Rodríguez",
+    "subtitle": "The pool of your dreams",
+    "tagline": "Shotcrete pool specialists in Almería",
+    "cta": "Request a quote"
+  },
+  "quienes": {
+    "title": "Who We Are",
+    "intro": "We are a family business with extensive experience building pools in Almería. We specialize in shotcrete technique, ensuring long-lasting pools of the highest quality.",
+    "exp_title": "Experience",
+    "exp_text": "Years of experience building dream pools throughout the province of Almería.",
+    "cal_title": "Quality",
+    "cal_text": "Professional shotcrete with the best materials on the market, ensuring durability and perfect finishes.",
+    "com_title": "Commitment",
+    "com_text": "Personalized attention from start to finish. Your satisfaction is our priority."
+  },
+  "proyectos": {
+    "title": "Our Projects",
+    "subtitle": "Every pool is a unique masterpiece",
+    "p1": "Residential Project",
+    "p2": "Infinity Pool",
+    "p3": "Overflow Pool",
+    "p4": "Community Project",
+    "p5": "Natural Pool",
+    "p6": "Custom Design"
+  },
+  "sobre": {
+    "title": "About Us",
+    "text1": "Piscinas Rodríguez was born from a passion for creating exceptional aquatic spaces in the heart of Almería. With the sun and Mediterranean climate as our allies, we have perfected the art of shotcrete to offer pools that not only beautify your home but integrate seamlessly with the Almerian landscape.",
+    "text2": "Our team combines traditional construction techniques with the latest innovations in design and materials. Every project is treated with the dedication and care it deserves, because we understand that a pool is much more than a structure — it's a place where memories are made.",
+    "quote": "Every pool we build is a reflection of our clients' dreams."
+  },
+  "contacto": {
+    "title": "Contact",
+    "phone_label": "Phone",
+    "location_label": "Location",
+    "location": "Almería, Spain",
+    "email_label": "Email",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_phone": "Phone (optional)",
+    "form_message": "Message",
+    "form_submit": "Send message",
+    "form_name_placeholder": "Your name",
+    "form_email_placeholder": "your@email.com",
+    "form_phone_placeholder": "+34 600 000 000",
+    "form_message_placeholder": "Tell us about your project..."
+  },
+  "footer": {
+    "tagline": "The pool of your dreams",
+    "copy": "© 2024 Piscinas Rodríguez. All rights reserved."
+  },
+  "whatsapp": {
+    "tooltip": "Write us on WhatsApp",
+    "aria": "Contact via WhatsApp"
+  }
+}
