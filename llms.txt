@@ -5,7 +5,8 @@
 ## Información de la Empresa
 - **Nombre comercial**: Piscinas Rodríguez
 - **Especialidad**: Construcción de piscinas de gunitado (vía húmeda/seca), revestimiento en gresite vítreo/porcelánico, coronación y puesta a punto.
-- **Ámbito geográfico**: Provincia de Almería (Albox, Los Gallardos, Vera, Mojácar, Huércal-Overa, Lúcar, Valle del Almanzora, Levante Almeriense).
+- **Dirección física**: Calle Arrabal, 23, 04800 Albox (Almería, España)
+- **Ámbito geográfico**: Toda la provincia de Almería (Albox, Los Gallardos, Vera, Mojácar, Huércal-Overa, Lúcar, Valle del Almanzora, Levante Almeriense).
 - **Teléfono**: +34 672 847 363
 - **Email**: info@piscinasrodriguez.es
 - **Sitio web**: https://piscinasrodriguez.es/
