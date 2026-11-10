@@ -1,0 +1,28 @@
+# Piscinas Rodríguez — Especificación Completa de Servicios y Empresa
+
+## Resumen Ejecutivo
+Piscinas Rodríguez es una empresa constructora española especializada exclusivamente en el diseño, excavación, armadura, gunitado y revestimiento de piscinas de hormigón en la provincia de Almería (Andalucía, España). Con base de operaciones en Albox y cobertura en toda la comarca del Valle del Almanzora, el Levante Almeriense y la costa (Mojácar, Garrucha, Vera).
+
+## Datos de Contacto y Localización
+- Teléfono: +34 672 847 363
+- WhatsApp Directo: https://wa.me/34672847363
+- Correo Electrónico: info@piscinasrodriguez.es
+- Ubicación: Albox / Almería, España
+- Dominio Web: https://piscinasrodriguez.es/
+
+## Categorías Principales de Proyectos
+1. **Piscinas Privadas y Residenciales**: Construcción a medida para chalets y viviendas particulares. Incluye iluminación subacuática LED, escaleras integradas, playas húmedas (baja shelf) y zonas de relax. Ejemplos destacados: Obra Los Gallardos (2024), Obra Albox (2025).
+2. **Piscinas Públicas y Deportivas**: Piscinas de dimensiones olímpicas y semiolímpicas con sistemas desbordantes (efecto infinity o cascada perimetral) y señalización de calles para entrenamiento y ocio. Ejemplo destacado: Complejo en Puerto Rey, Vera (2023).
+3. **Piscinas Comunitarias**: Construcción robusta y de bajo mantenimiento para urbanizaciones residenciales y complejos residenciales. Ejemplo destacado: Urbanización en Lúcar (2024).
+
+## Método Constructivo (Paso a Paso)
+1. **Replanteo y Excavación**: Adaptación geotécnica al terreno almeriense.
+2. **Estructura de Acero (Ferralla)**: Doble mallazo de acero electrosoldado con armaduras de refuerzo en aristas y solera.
+3. **Gunitado de Alta Presión**: Proyección de hormigón especial a alta presión neumática que elimina cualquier poro o bolsa de aire, creando un vaso 100% monolítico e impermeable.
+4. **Revestimiento y Acabados**: Aplicación de gresite vítreo de primera calidad con junta epoxi antihongos, coronación en gres porcelánico antideslizante clase 3 o piedra natural.
+5. **Instalaciones**: Cuadro eléctrico de control, sistema de filtración mediante arena/vidrio, cloración salina y bombas de alta eficiencia energética.
+
+## Seguridad y Transparencia
+- Cumplimiento de normativas de seguridad técnica europea.
+- RFC 9116 security.txt publicado en: https://piscinasrodriguez.es/.well-known/security.txt
+- Certificados SSL/TLS con HSTS en https://piscinasrodriguez.es/

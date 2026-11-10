@@ -25,22 +25,29 @@
   "proyectos": {
     "title": "Our Projects",
     "subtitle": "Every pool is a unique masterpiece",
-    "p1": "Residential Project",
-    "p2": "Infinity Pool",
-    "p3": "Overflow Pool",
-    "p4": "Community Project",
-    "p5": "Natural Pool",
-    "p6": "Custom Design"
+    "cat_privadas": "Private",
+    "p1_title": "Private Swimming Pool",
+    "p1_caption": "Los Gallardos (Almería) · 2024",
+    "cat_publicas": "Public",
+    "p2_title": "Public & Overflow Pool",
+    "p2_caption": "Puerto Rey, Vera (Almería) · 2023",
+    "cat_comunitarias": "Community",
+    "p3_title": "Community Swimming Pool",
+    "p3_caption": "Lúcar (Almería) · 2024"
   },
   "sobre": {
     "title": "About Us",
     "text1": "Piscinas Rodríguez was born from a passion for creating exceptional aquatic spaces in the heart of Almería. With the sun and Mediterranean climate as our allies, we have perfected the art of shotcrete to offer pools that not only beautify your home but integrate seamlessly with the Almerian landscape.",
     "text2": "Our team combines traditional construction techniques with the latest innovations in design and materials. Every project is treated with the dedication and care it deserves, because we understand that a pool is much more than a structure — it's a place where memories are made.",
-    "quote": "Every pool we build is a reflection of our clients' dreams."
+    "quote": "«Every pool we build is a reflection of our clients' dreams.»",
+    "fase1_badge": "Phase 1 · Shotcrete spraying",
+    "fase1_desc": "High-pressure concrete projection for a monolithic, 100% watertight shell.",
+    "fase2_badge": "Phase 2 · Artisanal tiling",
+    "fase2_desc": "Craftsmanship installation of mosaic tiles and coping for durable, premium aesthetics."
   },
   "contacto": {
     "title": "Contact",
-    "phone_label": "Phone",
+    "phone_label": "Let's talk about your project",
     "location_label": "Location",
     "location": "Almería, Spain",
     "email_label": "Email",
@@ -56,7 +63,7 @@
   },
   "footer": {
     "tagline": "The pool of your dreams",
-    "copy": "© 2024 Piscinas Rodríguez. All rights reserved."
+    "copy": "All rights reserved."
   },
   "whatsapp": {
     "tooltip": "Write us on WhatsApp",

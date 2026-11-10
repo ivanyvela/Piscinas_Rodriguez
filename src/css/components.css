@@ -239,54 +239,157 @@
   border-radius: var(--radius-lg);
   overflow: hidden;
   position: relative;
+  background-color: var(--color-white);
   box-shadow: var(--shadow-md);
-}
-
-.project-image-placeholder {
-  aspect-ratio: 4 / 3;
-  width: 100%;
-  /* Beautiful pool water gradient simulation */
-  background: 
-    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.2) 0%, transparent 60%),
-    linear-gradient(135deg, var(--color-foam) 0%, var(--color-pool) 50%, var(--color-azure) 100%);
-  background-size: 150% 150%;
-  position: relative;
-  transition: transform var(--transition-base) ease;
-}
-
-.project-card:hover .project-image-placeholder {
-  transform: scale(1.03);
-}
-
-.project-card__overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, var(--color-ocean-deep) 0%, transparent 100%);
-  opacity: 0;
-  transition: opacity var(--transition-base) ease;
+  transition: transform var(--transition-base) ease, box-shadow var(--transition-base) ease;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-xl);
+  flex-direction: column;
 }
 
-.project-card:hover .project-card__overlay {
-  opacity: 1;
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.project-card__image-wrapper {
+  aspect-ratio: 16 / 11;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-foam);
+}
+
+.project-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.project-card:hover .project-card__image {
+  transform: scale(1.05);
+}
+
+.project-card__badge {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-sm);
+  background: rgba(11, 35, 68, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--color-white);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  z-index: 2;
+  box-shadow: var(--shadow-sm);
+}
+
+.project-card__info {
+  padding: var(--space-md) var(--space-lg);
+  background-color: var(--color-white);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-card__title {
-  color: var(--color-white);
+  color: var(--color-text);
   font-size: var(--fs-md);
   font-weight: 600;
   font-family: var(--font-heading);
-  transform: translateY(20px);
-  transition: transform var(--transition-base) ease;
-  text-align: center;
-  margin: 0;
+  margin: 0 0 var(--space-2xs) 0;
 }
 
-.project-card:hover .project-card__title {
-  transform: translateY(0);
+.project-card__caption {
+  color: var(--color-text-light);
+  font-size: var(--fs-sm);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.project-card__caption svg {
+  color: var(--color-azure);
+  flex-shrink: 0;
+}
+
+/* Process Showcase in About Us */
+.process-showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  width: 100%;
+}
+
+@media (max-width: 520px) {
+  .process-showcase {
+    grid-template-columns: 1fr;
+  }
+}
+
+.process-card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition-base) ease;
+}
+
+.process-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.process-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background-color: #0b1928;
+}
+
+.process-video,
+.process-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.process-badge {
+  position: absolute;
+  bottom: var(--space-xs);
+  left: var(--space-xs);
+  right: var(--space-xs);
+  background: rgba(11, 35, 68, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--color-white);
+  padding: 5px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.process-caption {
+  padding: var(--space-sm);
+  font-size: var(--fs-xs);
+  color: var(--color-text-light);
+  line-height: 1.4;
+  margin: 0;
+  text-align: center;
+  background-color: var(--color-white);
 }
 
 /* Pull Quote */

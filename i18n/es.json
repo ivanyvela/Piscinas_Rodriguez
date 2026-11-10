@@ -25,22 +25,29 @@
   "proyectos": {
     "title": "Nuestros Proyectos",
     "subtitle": "Cada piscina es una obra única",
-    "p1": "Proyecto Residencial",
-    "p2": "Piscina Infinity",
-    "p3": "Piscina Desbordante",
-    "p4": "Proyecto Comunitario",
-    "p5": "Piscina Natural",
-    "p6": "Diseño Personalizado"
+    "cat_privadas": "Privada",
+    "p1_title": "Piscina Privada",
+    "p1_caption": "Los Gallardos (Almería) · 2024",
+    "cat_publicas": "Pública",
+    "p2_title": "Piscina Pública y Desbordante",
+    "p2_caption": "Puerto Rey, Vera (Almería) · 2023",
+    "cat_comunitarias": "Comunitaria",
+    "p3_title": "Piscina Comunitaria",
+    "p3_caption": "Lúcar (Almería) · 2024"
   },
   "sobre": {
     "title": "Sobre Nosotros",
     "text1": "Piscinas Rodríguez nació de la pasión por crear espacios acuáticos excepcionales en el corazón de Almería. Con el sol y el clima mediterráneo como nuestros aliados, hemos perfeccionado el arte del gunitado para ofrecer piscinas que no solo embellecen su hogar, sino que se integran perfectamente con el paisaje almeriense.",
     "text2": "Nuestro equipo combina técnicas tradicionales de construcción con las últimas innovaciones en diseño y materiales. Cada proyecto es tratado con la dedicación y el cuidado que merece, porque entendemos que una piscina es mucho más que una estructura — es un lugar donde se crean recuerdos.",
-    "quote": "Cada piscina que construimos es un reflejo de los sueños de nuestros clientes."
+    "quote": "«Cada piscina que construimos es un reflejo de los sueños de nuestros clientes.»",
+    "fase1_badge": "Fase 1 · Gunitado de hormigón",
+    "fase1_desc": "Proyección directa de hormigón a alta presión para un vaso monolítico y 100% estanco.",
+    "fase2_badge": "Fase 2 · Revestimiento de gresite",
+    "fase2_desc": "Colocación artesanal de gresite y coronación para un acabado duradero y de máxima calidad."
   },
   "contacto": {
     "title": "Contacto",
-    "phone_label": "Teléfono",
+    "phone_label": "Hablemos de tu proyecto",
     "location_label": "Ubicación",
     "location": "Almería, España",
     "email_label": "Email",
@@ -56,7 +63,7 @@
   },
   "footer": {
     "tagline": "La piscina de tus sueños",
-    "copy": "© 2024 Piscinas Rodríguez. Todos los derechos reservados."
+    "copy": "Todos los derechos reservados."
   },
   "whatsapp": {
     "tooltip": "Escríbenos por WhatsApp",

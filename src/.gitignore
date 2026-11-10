@@ -1,0 +1,9 @@
+.DS_Store
+*.log
+node_modules/
+*:Zone.Identifier
+*Zone.Identifier
+proceso_2.MOV
+scratch*
+dnszone.csv
+raw-media/
